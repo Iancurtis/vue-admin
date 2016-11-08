@@ -17,6 +17,7 @@ const nprogress = new NProgress({ parent: '.nprogress-container' })
 const { state } = store
 const { config } = state
 
+// 在mobile状态下，每次从sidebar选中路由的时候，自动关闭sidebar
 router.beforeEach((route, redirect, next) => {
   if (config.mobile && config.sidebar) {
     config.sidebar = false

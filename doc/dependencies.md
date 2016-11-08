@@ -10,19 +10,19 @@
 
 ## UI Components
 
-| Component | Library |  
-| --- | --- | --- |  
-| Animations & Transitions | [animate.css][] & [animejs][] |  
-| BackToTop | [jump.js][] |  
-| Cleave | [cleave.js][] |  
-| Charts | [chart.js][], [chartist.js][], [peity][], [plotly.js][] |  
-| Datepicker | [flatpickr][] |  
-| Fonts | [font-awesome][], [Material Design icons][] |  
-| Progress | [progress-tracker][] |  
-| Rating | [Starability.css][] |  
-| Tables | [Handsontable][] |  
-| Tooltip | [hint.css][] |  
-| ... | ... |  
+| Component | Library |
+| --- | --- | --- |
+| Animations & Transitions | [animate.css][] & [animejs][] |
+| BackToTop | [jump.js][] |
+| Cleave | [cleave.js][] |
+| Charts | [chart.js][], [chartist.js][], [peity][], [plotly.js][] |
+| Datepicker | [flatpickr][] |
+| Fonts | [font-awesome][], [Material Design icons][] |
+| Progress | [progress-tracker][] |
+| Rating | [Starability.css][] |
+| Tables | [Handsontable][] |
+| Tooltip | [hint.css][] |
+| ... | ... |
 
 
 ## Development Tools
