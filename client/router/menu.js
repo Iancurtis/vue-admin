@@ -263,7 +263,31 @@ export default [
       {
         name: 'Handsontable',
         path: '/tables/handsontable',
+        meta: {
+          label: 'Handson table'
+        },
         component: lazyLoading('tables/Handsontable')
+      }
+    ]
+  },
+  {
+    name: 'Test',
+    path: '/test',
+    meta: {
+      icon: 'fa-table',
+      expanded: false
+    },
+
+    component: lazyLoading('test', true),
+
+    children: [
+      {
+        name: 'TestChildren',
+        path: 'child',
+        meta: {
+          label: 'Test children'
+        },
+        component: lazyLoading('test/Child')
       }
     ]
   }
